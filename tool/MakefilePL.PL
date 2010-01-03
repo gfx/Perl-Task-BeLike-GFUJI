@@ -32,7 +32,7 @@ my @requires = (
         Module::Build
         Module::Install
         Module::Install::XSUtil
-        Module::Install::AuthorRequries
+        Module::Install::AuthorRequires
         Module::Install::AuthorTests
         Module::Install::Repository
 
@@ -57,7 +57,7 @@ my @requires = (
     'Release' => [qw(
         ShipIt
         ShipIt::Step::ChangeAllVersions
-        ShipIt::Step::CheckVersionMatch
+        ShipIt::Step::CheckVersionsMatch
         CPAN::Uploader
     )],
 
@@ -83,7 +83,7 @@ my @requires = (
     'Web application' => [qw(
         PSGI
         Plack
-        Plac::Request
+        Plack::Request
         HTTP::Engine
 
         HTML::FillInForm::Lite
