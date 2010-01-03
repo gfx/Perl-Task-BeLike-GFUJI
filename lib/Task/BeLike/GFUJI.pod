@@ -16,7 +16,7 @@ character encodings
 
 Establish an ISA relationship with base classes at compile time
 
-=head2 LWP 5.805
+=head2 LWP 5.834
 
 The World-Wide Web library for Perl
 
@@ -24,11 +24,11 @@ The World-Wide Web library for Perl
 
 Database independent interface for Perl
 
-=head2 DBD::SQLite 1.25
+=head2 DBD::SQLite 1.27
 
 Self-contained RDBMS in a DBI Driver
 
-=head2 YAML 0.66
+=head2 YAML 0.70
 
 YAML Ain't Markup Language (tm)
 
@@ -36,11 +36,11 @@ YAML Ain't Markup Language (tm)
 
 Perl YAML Serialization using XS and libyaml
 
-=head2 JSON 2.02
+=head2 JSON 2.16
 
 JSON (JavaScript Object Notation) encoder/decoder
 
-=head2 JSON::XS 2.25
+=head2 JSON::XS 2.26
 
 JSON serialising/deserialising, done correctly and fast
 
@@ -48,7 +48,7 @@ JSON serialising/deserialising, done correctly and fast
 
 what modules shipped with versions of perl
 
-=head2 Variable::Magic 0.36
+=head2 Variable::Magic 0.39
 
 Associate user-defined magic to variables from Perl.
 
@@ -74,15 +74,15 @@ A perl module for simple terminal control
 
 Perl interface to various C<readline> packages.
 
-=head2 Term::ReadLine::Perl 1.0208
+=head2 Term::ReadLine::Perl 1.0303
 
 
 
-=head2 Text::Glob 0.06
+=head2 Text::Glob 0.08
 
 match globbing patterns against text
 
-=head2 File::Which 0.05
+=head2 File::Which 1.09
 
 Portable implementation of the `which' utility
 
@@ -100,19 +100,19 @@ Standalone, extensible Perl module installer
 
 Utility functions for XS modules
 
-=head2 Module::Install::AuthorRequries 0
+=head2 Module::Install::AuthorRequires 0.02
 
-
+declare author-only dependencies
 
 =head2 Module::Install::AuthorTests 0.002
 
 designate tests only run by module authors
 
-=head2 Module::Install::Repository 0.05
+=head2 Module::Install::Repository 0.06
 
 Automatically sets repository URL from svn/svk/Git checkout
 
-=head2 Test::More 0.92
+=head2 Test::More 0.94
 
 yet another framework for writing test scripts
 
@@ -120,11 +120,11 @@ yet another framework for writing test scripts
 
 Traces memory leaks
 
-=head2 Test::Base 0.50
+=head2 Test::Base 0.59
 
 A Data Driven Testing Framework
 
-=head2 Test::Output 0.13
+=head2 Test::Output 0.16
 
 Utilities to test STDOUT and STDERR messages.
 
@@ -144,15 +144,15 @@ check for POD errors in files
 
 Check for pod coverage in your distribution.
 
-=head2 Test::Synopsis 0
+=head2 Test::Synopsis 0.06
 
+Test your SYNOPSIS code
 
-
-=head2 Test::Deep 0.104
+=head2 Test::Deep 0.106
 
 Extremely flexible deep comparison
 
-=head2 Test::Perl::Critic 1.01
+=head2 Test::Perl::Critic 1.02
 
 Use Perl::Critic in test programs
 
@@ -160,7 +160,7 @@ Use Perl::Critic in test programs
 
 Code coverage metrics for Perl
 
-=head2 Devel::NYTProf 2.10
+=head2 Devel::NYTProf 3.01
 
 Powerful feature-rich perl source code profiler
 
@@ -178,9 +178,9 @@ software release tool
 
 Changes versions in all the modules
 
-=head2 ShipIt::Step::CheckVersionMatch 0
+=head2 ShipIt::Step::CheckVersionsMatch 0.02
 
-
+Check that all modules with a $VERSION match
 
 =head2 CPAN::Uploader 0.093390
 
@@ -188,15 +188,15 @@ upload things to the CPAN
 
 =head2 Moose and Mouse
 
-=head2 Class::MOP 0.92
+=head2 Class::MOP 0.97
 
 A Meta Object Protocol for Perl 5
 
-=head2 Moose 0.88
+=head2 Moose 0.93
 
 A postmodern object system for Perl 5
 
-=head2 MooseX::Types 0.16
+=head2 MooseX::Types 0.21
 
 Organise your Moose types in libraries
 
@@ -204,15 +204,15 @@ Organise your Moose types in libraries
 
 A Path::Class type library for Moose
 
-=head2 MooseX::Getopt 0.20
+=head2 MooseX::Getopt 0.26
 
 A Moose role for processing command line options
 
-=head2 Mouse 0.22
+=head2 Mouse 0.4501
 
 Moose minus the antlers
 
-=head2 MouseX::Types 0.04
+=head2 MouseX::Types 0.03
 
 Organize your Mouse types in libraries
 
@@ -220,49 +220,49 @@ Organize your Mouse types in libraries
 
 A Path::Class type library for Mouse
 
-=head2 MouseX::Getopt 0
+=head2 MouseX::Getopt 0.2601
 
-
+A Mouse role for processing command line options
 
 =head2 Any::Moose 0.11
 
 use Moose or Mouse modules
 
-=head2 Any::Moose::Convert 0
+=head2 Any::Moose::Convert 0.003
 
-
+Convert Moose libraries to Mouse ones, or vice versa
 
 =head2 Utility
 
-=head2 Data::Util 0.55
+=head2 Data::Util 0.56
 
 A selection of utilities for data and data types
 
-=head2 PerlIO::Util 0.56
+=head2 PerlIO::Util 0.70
 
 A selection of general PerlIO utilities
 
 =head2 Web application
 
-=head2 PSGI 0
+=head2 PSGI 1.03
 
+Perl Web Server Gateway Interface Specification
 
-
-=head2 Plack 0.9025
+=head2 Plack 0.9026
 
 PSGI reference implementation and utilities
 
-=head2 Plac::Request 0
+=head2 Plack::Request 0.09
 
+Portable HTTP request object from PSGI env hash
 
+=head2 HTTP::Engine 0.03003
 
-=head2 HTTP::Engine 0
+Web Server Gateway Interface and HTTP Server Engine Drivers
 
+=head2 HTML::FillInForm::Lite 1.07
 
-
-=head2 HTML::FillInForm::Lite 0
-
-
+Lightweight FillInForm module in Pure Perl
 
 =head2 Text::MicroTemplate 0.11
 
@@ -278,19 +278,19 @@ Extended MicroTemplate
 
 Extensible and flexible object <-> relational mapper.
 
-=head2 Text::CSV 1.00
+=head2 Text::CSV 1.16
 
 comma-separated values manipulator (using XS or PurePerl)
 
-=head2 Text::CSV_XS 0
+=head2 Text::CSV_XS 0.70
 
+comma-separated values manipulation routines
 
+=head2 Spreadsheet::ParseExcel 0.56
 
-=head2 Spreadsheet::ParseExcel 0.32
+Read information from an Excel file.
 
-Get information from Excel file
-
-=head2 Spreadsheet::WriteExcel 2.20
+=head2 Spreadsheet::WriteExcel 2.32
 
 Write to a cross-platform Excel binary file.
 
