@@ -156,6 +156,10 @@ Extremely flexible deep comparison
 
 Use Perl::Critic in test programs
 
+=head2 Smart::Comments 1.0.4
+
+Comments that do more than just sit there
+
 =head2 Devel::Cover 0.65
 
 Code coverage metrics for Perl
@@ -241,6 +245,14 @@ A selection of utilities for data and data types
 =head2 PerlIO::Util 0.70
 
 A selection of general PerlIO utilities
+
+=head2 Devel::Size 0.71
+
+Perl extension for finding the memory usage of Perl variables
+
+=head2 V 0.13
+
+Print version of the specified module(s).
 
 =head2 Web application
 

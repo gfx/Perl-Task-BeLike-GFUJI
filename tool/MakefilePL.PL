@@ -48,6 +48,8 @@ my @requires = (
         Test::Deep
         Test::Perl::Critic
 
+        Smart::Comments
+
         Devel::Cover
         Devel::NYTProf
 
@@ -78,6 +80,8 @@ my @requires = (
     'Utility' => [qw(
         Data::Util
         PerlIO::Util
+        Devel::Size
+        V
     )],
 
     'Web application' => [qw(
