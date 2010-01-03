@@ -1,0 +1,94 @@
+---
+abstract: "GFUJI's favarite CPAN modules"
+author:
+  - 'Goro Fuji (gfx) <gfuji at cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Task::BeLike::GFUJI
+name: Task-BeLike-GFUJI
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Any::Moose: 0.11
+  Any::Moose::Convert: 0.003
+  CPAN: 1.9402
+  CPAN::Mini: 0.576
+  CPAN::Uploader: 0.093390
+  Class::MOP: 0.97
+  DBD::SQLite: 1.27
+  DBI: 1.609
+  DBIx::Class: 0.08115
+  Data::Util: 0.56
+  Devel::Cover: 0.65
+  Devel::NYTProf: 3.01
+  Encode: 2.35
+  File::Which: 1.09
+  HTML::FillInForm::Lite: 1.07
+  HTTP::Engine: 0.03003
+  IPC::Run: 0.84
+  JSON: 2.16
+  JSON::XS: 2.26
+  LWP: 5.834
+  Module::Build: 0.3601
+  Module::CoreList: 2.18
+  Module::Install: 0.91
+  Module::Install::AuthorRequires: 0
+  Module::Install::AuthorTests: 0.002
+  Module::Install::Repository: 0.06
+  Module::Install::XSUtil: 0.19
+  Module::Setup: 0.07
+  Moose: 0.93
+  MooseX::Getopt: 0.26
+  MooseX::Types: 0.21
+  MooseX::Types::Path::Class: 0.05
+  Mouse: 0.4501
+  MouseX::Getopt: 0.2601
+  MouseX::Types: 0.03
+  MouseX::Types::Path::Class: 0.06
+  PSGI: 1.03
+  PerlIO::Util: 0.70
+  Plack: 0.9026
+  Plack::Request: 0.09
+  ShipIt: 0.53
+  ShipIt::Step::ChangeAllVersions: 0.002
+  ShipIt::Step::CheckVersionsMatch: 0
+  Spreadsheet::ParseExcel: 0.56
+  Spreadsheet::WriteExcel: 2.32
+  Term::ReadKey: 2.30
+  Term::ReadLine: 1.04
+  Term::ReadLine::Perl: 1.0303
+  Test::Base: 0.59
+  Test::Deep: 0.106
+  Test::Exception: 0.27
+  Test::LeakTrace: 0.10
+  Test::More: 0.94
+  Test::NoWarnings: 0.084
+  Test::Output: 0.16
+  Test::Perl::Critic: 1.02
+  Test::Pod: 1.40
+  Test::Pod::Coverage: 1.08
+  Test::Synopsis: 0.06
+  Text::CSV: 1.16
+  Text::CSV_XS: 0.70
+  Text::Glob: 0.08
+  Text::MicroTemplate: 0.11
+  Text::MicroTemplate::Extended: 0.09
+  Variable::Magic: 0.39
+  YAML: 0.70
+  YAML::XS: 0.32
+  parent: 0.221
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/gfx/Perl-Task-BeLike-GFUJI
+version: 0.01
