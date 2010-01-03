@@ -1,0 +1,309 @@
+=encoding utf8
+
+=head1 NAME
+
+Task::BeLike::GFUJI - GFUJI's favarite CPAN modules
+
+=head1 CONTENTS
+
+=head2 Standard and de facto standard
+
+=head2 Encode 2.35
+
+character encodings
+
+=head2 parent 0.221
+
+Establish an ISA relationship with base classes at compile time
+
+=head2 LWP 5.805
+
+The World-Wide Web library for Perl
+
+=head2 DBI 1.609
+
+Database independent interface for Perl
+
+=head2 DBD::SQLite 1.25
+
+Self-contained RDBMS in a DBI Driver
+
+=head2 YAML 0.66
+
+YAML Ain't Markup Language (tm)
+
+=head2 YAML::XS 0.32
+
+Perl YAML Serialization using XS and libyaml
+
+=head2 JSON 2.02
+
+JSON (JavaScript Object Notation) encoder/decoder
+
+=head2 JSON::XS 2.25
+
+JSON serialising/deserialising, done correctly and fast
+
+=head2 Module::CoreList 2.18
+
+what modules shipped with versions of perl
+
+=head2 Variable::Magic 0.36
+
+Associate user-defined magic to variables from Perl.
+
+=head2 IPC::Run 0.84
+
+system() and background procs w/ piping, redirs, ptys (Unix, Win32)
+
+=head2 CPAN
+
+=head2 CPAN 1.9402
+
+query, download and build perl modules from CPAN sites
+
+=head2 CPAN::Mini 0.576
+
+create a minimal mirror of CPAN
+
+=head2 Term::ReadKey 2.30
+
+A perl module for simple terminal control
+
+=head2 Term::ReadLine 1.04
+
+Perl interface to various C<readline> packages.
+
+=head2 Term::ReadLine::Perl 1.0208
+
+
+
+=head2 Text::Glob 0.06
+
+match globbing patterns against text
+
+=head2 File::Which 0.05
+
+Portable implementation of the `which' utility
+
+=head2 Development and testing
+
+=head2 Module::Build 0.3601
+
+Build and install Perl modules
+
+=head2 Module::Install 0.91
+
+Standalone, extensible Perl module installer
+
+=head2 Module::Install::XSUtil 0.19
+
+Utility functions for XS modules
+
+=head2 Module::Install::AuthorRequries 0
+
+
+
+=head2 Module::Install::AuthorTests 0.002
+
+designate tests only run by module authors
+
+=head2 Module::Install::Repository 0.05
+
+Automatically sets repository URL from svn/svk/Git checkout
+
+=head2 Test::More 0.92
+
+yet another framework for writing test scripts
+
+=head2 Test::LeakTrace 0.10
+
+Traces memory leaks
+
+=head2 Test::Base 0.50
+
+A Data Driven Testing Framework
+
+=head2 Test::Output 0.13
+
+Utilities to test STDOUT and STDERR messages.
+
+=head2 Test::Exception 0.27
+
+Test exception based code
+
+=head2 Test::NoWarnings 0.084
+
+Make sure you didn't emit any warnings while testing
+
+=head2 Test::Pod 1.40
+
+check for POD errors in files
+
+=head2 Test::Pod::Coverage 1.08
+
+Check for pod coverage in your distribution.
+
+=head2 Test::Synopsis 0
+
+
+
+=head2 Test::Deep 0.104
+
+Extremely flexible deep comparison
+
+=head2 Test::Perl::Critic 1.01
+
+Use Perl::Critic in test programs
+
+=head2 Devel::Cover 0.65
+
+Code coverage metrics for Perl
+
+=head2 Devel::NYTProf 2.10
+
+Powerful feature-rich perl source code profiler
+
+=head2 Module::Setup 0.07
+
+a simple module maker "yet another Module::Start(?:er)?"
+
+=head2 Release
+
+=head2 ShipIt 0.53
+
+software release tool
+
+=head2 ShipIt::Step::ChangeAllVersions 0.002
+
+Changes versions in all the modules
+
+=head2 ShipIt::Step::CheckVersionMatch 0
+
+
+
+=head2 CPAN::Uploader 0.093390
+
+upload things to the CPAN
+
+=head2 Moose and Mouse
+
+=head2 Class::MOP 0.92
+
+A Meta Object Protocol for Perl 5
+
+=head2 Moose 0.88
+
+A postmodern object system for Perl 5
+
+=head2 MooseX::Types 0.16
+
+Organise your Moose types in libraries
+
+=head2 MooseX::Types::Path::Class 0.05
+
+A Path::Class type library for Moose
+
+=head2 MooseX::Getopt 0.20
+
+A Moose role for processing command line options
+
+=head2 Mouse 0.22
+
+Moose minus the antlers
+
+=head2 MouseX::Types 0.04
+
+Organize your Mouse types in libraries
+
+=head2 MouseX::Types::Path::Class 0.06
+
+A Path::Class type library for Mouse
+
+=head2 MouseX::Getopt 0
+
+
+
+=head2 Any::Moose 0.11
+
+use Moose or Mouse modules
+
+=head2 Any::Moose::Convert 0
+
+
+
+=head2 Utility
+
+=head2 Data::Util 0.55
+
+A selection of utilities for data and data types
+
+=head2 PerlIO::Util 0.56
+
+A selection of general PerlIO utilities
+
+=head2 Web application
+
+=head2 PSGI 0
+
+
+
+=head2 Plack 0.9025
+
+PSGI reference implementation and utilities
+
+=head2 Plac::Request 0
+
+
+
+=head2 HTTP::Engine 0
+
+
+
+=head2 HTML::FillInForm::Lite 0
+
+
+
+=head2 Text::MicroTemplate 0.11
+
+Text::MicroTemplate
+
+=head2 Text::MicroTemplate::Extended 0.09
+
+Extended MicroTemplate
+
+=head2 Data and database
+
+=head2 DBIx::Class 0.08115
+
+Extensible and flexible object <-> relational mapper.
+
+=head2 Text::CSV 1.00
+
+comma-separated values manipulator (using XS or PurePerl)
+
+=head2 Text::CSV_XS 0
+
+
+
+=head2 Spreadsheet::ParseExcel 0.32
+
+Get information from Excel file
+
+=head2 Spreadsheet::WriteExcel 2.20
+
+Write to a cross-platform Excel binary file.
+
+
+=head1 AUTHOR
+
+Goro Fuji (gfx) E<lt>gfuji at cpan.orgE<gt>
+
+=head1 COPYRIGHT AND LISENCE
+
+Copyright (c) 2010, Goro Fuji.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
